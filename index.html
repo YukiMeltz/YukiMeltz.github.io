@@ -1,186 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Himanshu Raj — YukiMeltz. B.Tech CSE student, programmer, Linux tinkerer, gamer and anime enthusiast.">
-  <title>YukiMeltz — Himanshu Raj</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YukiMeltz — Under Construction</title>
+
+    <style>
+        body {
+	            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0d1117;
+            color: #e6edf3;
+            font-family: system-ui, sans-serif;
+            text-align: center;
+        }
+
+        main {
+	            width: min(90%, 700px);
+        }
+
+        img {
+	            max-width: 100%;
+            max-height: 55vh;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+
+        h1 {
+	            margin: 24px 0 8px;
+        }
+
+        p {
+	            color: #8b949e;
+        }
+
+        a {
+	            color: #9eeaf9;
+            text-decoration: none;
+        }
+
+        a:hover {
+	            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-  <nav class="nav">
-    <a class="brand" href="#top">YukiMeltz<span>_</span></a>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#clab">C Lab</a>
-      <a href="#learning">Learning</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+    <main>
+        <img
+            src="https://files.catbox.moe/np6mpn.jpg"
+            alt="Website under construction"
+        >
 
-  <main id="top">
-    <section class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow">B.Tech CSE Student · India</p>
-        <h1>Hi, I'm <span>Himanshu</span><br><small>a.k.a. YukiMeltz</small></h1>
-        <p class="hero-text">
-          I build things, break things, figure out why they broke, and occasionally
-          document the process. Currently exploring C, Python, Linux, web development
-          and the rest of the software rabbit hole.
+        <h1>Under Construction</h1>
+
+        <p>
+            I'm building this website from scratch.
+            <br>
+            Check back during Spring of 2027.
         </p>
-        <div class="actions">
-          <a class="button primary" href="https://github.com/YukiMeltz" target="_blank" rel="noopener">View GitHub</a>
-          <a class="button" href="#clab">Explore C Lab</a>
-        </div>
-      </div>
 
-      <div class="terminal">
-        <div class="terminal-bar"><i></i><i></i><i></i><span>~/YukiMeltz</span></div>
-        <pre><code><b>$ whoami</b>
-Himanshu Raj
-
-<b>$ cat current_status.txt</b>
-B.Tech CSE student
-Learning C + Python + Linux
-Building web projects
-Maintaining college lab archives
-
-<b>$ echo $STATUS</b>
-still_learning=true</code></pre>
-      </div>
-    </section>
-
-    <section id="about" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">01 / About</p>
-        <h2>A little context.</h2>
-      </div>
-      <div class="about-grid">
-        <div class="card">
-          <h3>Who I am</h3>
-          <p>
-            I'm a B.Tech Computer Science student and the person behind
-            <strong>YukiMeltz</strong>. My interests sit somewhere between programming,
-            Linux, games, anime, and figuring out how software works under the hood.
-          </p>
-          <p>
-            I prefer learning by actually building things: small programs, scripts,
-            configurations, experiments and occasionally projects that are far more
-            complicated than they needed to be.
-          </p>
-        </div>
-        <div class="stats">
-          <div class="stat"><strong>01</strong><span>Current semester</span></div>
-          <div class="stat"><strong>07</strong><span>C-lab programs archived*</span></div>
-          <div class="stat"><strong>155+</strong><span>Anime watched</span></div>
-          <div class="stat"><strong>60</strong><span>Genshin AR</span></div>
-        </div>
-      </div>
-      <p class="note">*The archive currently lists 6 source files; update the counter to 6 unless a seventh experiment is added.</p>
-    </section>
-
-    <section id="stack" class="section section-alt">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">02 / Toolkit</p>
-          <h2>Things I use and learn.</h2>
-        </div>
-        <div class="chips">
-          <span>C</span><span>Python</span><span>HTML</span><span>CSS</span>
-          <span>Git</span><span>Linux</span><span>Shell</span><span>Markdown</span>
-          <span>AWS / EC2</span><span>Termux</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">03 / Projects</p>
-        <h2>Stuff worth mentioning.</h2>
-      </div>
-      <article class="project-feature">
-        <div class="project-number">01</div>
-        <div>
-          <p class="project-label">Featured project</p>
-          <h3>Phigros Phi-Plugin × TRSS Yunzai</h3>
-          <p>
-            A Mandarin-documentation survival project where I integrated the Phi plugin
-            with TRSS Yunzai, configured Discord bot automation, and worked with TapTap
-            International APIs for Phigros cloud data.
-          </p>
-          <div class="chips small">
-            <span>Node.js</span><span>pnpm</span><span>Discord Bot</span>
-            <span>API Integration</span><span>TRSS Yunzai</span>
-          </div>
-          <a class="text-link" href="https://github.com/YukiMeltz/phigrOS-Phi-Plugin-Guide-using-TRSS-Yunzai" target="_blank" rel="noopener">Explore on GitHub ↗</a>
-        </div>
-      </article>
-    </section>
-
-    <section id="clab" class="section section-alt">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">04 / College Work</p>
-          <h2>C Lab Archive.</h2>
-          <p>A chronological archive of C programming lab work following the syntax and standards used in my college labs.</p>
-        </div>
-
-        <div class="archive-header">
-          <div><span class="label">Semester</span><strong>01</strong></div>
-          <div><span class="label">Latest</span><strong>5 Sep 2026</strong></div>
-          <div><span class="label">Theme</span><strong>Conditionals & Operators</strong></div>
-          <a class="button" href="https://github.com/YukiMeltz/College-lab-code-practice/tree/main/C" target="_blank" rel="noopener">All C Programs ↗</a>
-        </div>
-
-        <article class="week">
-          <div class="week-title">
-            <div>
-              <p class="project-label">Week 1 · 1–7 September 2026</p>
-              <h3>Basic Operations & Conditionals</h3>
-              <p>Input/Output · Arithmetic · Basic Selection Statements</p>
-            </div>
-            <span class="status">LATEST</span>
-          </div>
-
-
-        <div class="maintainer">
-          <strong>Maintainer</strong>
-          <span>Himanshu Raj · YukiMeltz · B.Tech CSE Student</span>
-          <small>Unofficial student resource · maintained for college lab reference</small>
-        </div>
-      </div>
-    </section>
-
-    <section id="learning" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">05 / Now</p>
-        <h2>Currently learning.</h2>
-      </div>
-      <div class="learning-grid">
-        <div class="card"><span>01</span><h3>C Programming</h3><p>College lab work, conditionals, operators and loops.</p></div>
-        <div class="card"><span>02</span><h3>Python & DSA</h3><p>Strengthening programming fundamentals and problem solving.</p></div>
-        <div class="card"><span>03</span><h3>Linux & Shell</h3><p>Command-line workflows, scripting, configuration and system tooling.</p></div>
-        <div class="card"><span>04</span><h3>Web Development</h3><p>HTML, CSS and the fundamentals needed to build useful interfaces.</p></div>
-        <div class="card"><span>05</span><h3>Japanese</h3><p>Strengthen japanese language skills for easier understanding of japanese culture.</p></div>
-    
-      </div>
-    </section>
-
-    <section id="contact" class="section container contact">
-      <p class="eyebrow">06 / Contact</p>
-      <h2>Let's connect.</h2>
-      <p>Find me under the name <strong>YukiMeltz</strong> across GitHub and Discord.</p>
-      <div class="actions">
-        <a class="button primary" href="https://github.com/YukiMeltz" target="_blank" rel="noopener">GitHub</a>
-        <a class="button" href="mailto:himanshuraj51005@gmail.com">Email</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2026 Himanshu Raj · YukiMeltz</p>
-    <p>Built with HTML + CSS. No framework required.</p>
-  </footer>
+        <p>
+            <a href="https://github.com/YukiMeltz">
+                → GitHub
+            </a>
+        </p>
+    </main>
 </body>
 </html>
